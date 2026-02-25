@@ -95,9 +95,6 @@ defaults:
       layout: single
       author_profile: true
 
-Publications_archive:
+Publications:
   type: liquid
-  path: /_pages/Publications_archive
-tag_archive:
-  type: liquid
-  path: /tags/
+  path: /Publications_archive/
