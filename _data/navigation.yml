@@ -1,9 +1,13 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "Publications"
+    url: /Publications/
+  - title: "News"
+    url: /News/
+  - title: "Member"
+    url: /Member/
+  - title: "Resources"
+    url: /Resources/
+  - title: "Teaching"
+    url: /Teaching/
+  - title: "Links"
+    url: /Links/
