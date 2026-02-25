@@ -97,7 +97,7 @@ defaults:
 
 Publications_archive:
   type: liquid
-  path: /Publications/
+  path: /_pages/Publications_archive
 tag_archive:
   type: liquid
   path: /tags/
