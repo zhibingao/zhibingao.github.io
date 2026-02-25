@@ -97,4 +97,4 @@ defaults:
 
 Publications:
   type: liquid
-  path: /Publications_archive/
+  path: /Publications/
