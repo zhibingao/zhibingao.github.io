@@ -4,6 +4,25 @@ layout: single
 permalink: /Publications/
 author_profile: true
 ---
+{% assign publications = site.data.publications | sort: 'year' | reverse %}
+{% for pub in publications %}
+<div style="margin-bottom: 2em;">
+  <p>
+    <strong>{{ pub.title }}</strong><br>
+    {{ pub.authors }}<br>
+    <em>{{ pub.journal }}</em>, {{ pub.volume }}, {{ pub.pages }} ({{ pub.year }})
+  </p>
+  <p>
+    {% if pub.url %}
+      <a href="{{ pub.url }}" target="_blank" class="btn btn--primary btn--small">Publisher</a>
+    {% endif %}
+    {% if pub.pdf %}
+      <a href="{{ pub.pdf | relative_url }}" class="btn btn--success btn--small">📥 PDF</a>
+    {% endif %}
+  </p>
+</div>
+{% endfor %}
+
 -20. Hailing Guo#, Zhaofu Zhang#*, Yuzheng Guo, **Zhibin Gao**, Ruisheng Zheng, and Honglei Wu*, Impact of the interface vacancy on Schottky barrier height for Au/AlN polar interfaces, *Applied Surface Science*, 505, 144650 (2020). [pdf file] [Publisher's link to the manuscript]
 
 -19. Mei Xiong, **Zhibin Gao**, Kun Luo, FeiFei Ling, YuFei Gao, Chong Chen, Dongli Yu, Zhisheng Zhao, and Shizhong Wei*, Three metallic BN polymorphs: 1D multi-threaded conduction in a 3D network, *Phys. Chem. Chem. Phys.*, 22, 489-496 (2020). [pdf file] [Publisher's link to the manuscript]
