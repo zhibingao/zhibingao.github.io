@@ -1,0 +1,4 @@
+/* 将头像从圆形改为正方形 */
+.author__avatar img {
+  border-radius: 0 !important;  /* 去除圆角 */
+}
