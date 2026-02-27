@@ -1,6 +1,64 @@
 ---
 layout: default
 ---
+// 模仿目标网站的标题样式（使用 emoji 图标）
+.page__content h2 {
+  font-size: 2em; // 调整标题大小
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  border-bottom: none; // 移除 Minimal Mistakes 可能的下划线
+}
+
+// 模仿目标网站的段落样式
+.page__content p {
+  line-height: 1.6;
+  margin-bottom: 1.5em;
+  font-size: 1.1em;
+}
+
+// 模仿目标网站的列表样式（研究方向部分）
+.page__content ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+  li {
+    margin-bottom: 0.5em;
+    line-height: 1.6;
+    font-size: 1.1em;
+  }
+}
+
+// 模仿目标网站的“近期亮点”卡片样式
+.page__content {
+  // 为每个亮点条目添加卡片效果
+  p:has(> 🎉), p:has(> 📄), p:has(> 🏆), p:has(> 🥇) { // 选择包含特定 emoji 的段落
+    background-color: #f9f9f9; // 浅灰色背景
+    border-left: 4px solid #3498db; // 左侧蓝色强调条
+    padding: 1em 1.5em;
+    border-radius: 0 8px 8px 0; // 右侧圆角
+    margin-bottom: 1em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    font-size: 1em;
+  }
+}
+
+// 模仿链接样式（如“更多新闻 →”）
+.page__content a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// 确保侧边栏（左侧栏）样式不受太大影响
+.sidebar {
+  // 可以在这里微调侧边栏样式，例如头像大小、边距等
+  .author__avatar img {
+    border-radius: 0 !important; // 如果您之前想改方形，这里保留
+  }
+}
 
 <div id="main" role="main">
   <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
