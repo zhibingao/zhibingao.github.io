@@ -6,8 +6,6 @@ author_profile: true
 ---
 # 金属材料强度国家重点实验室
 
-# 金属材料强度国家重点实验室
-
 ## 所属团队
 
 - **孙军 院士**：[个人主页](https://gr.xjtu.edu.cn/en/web/junsun/)
