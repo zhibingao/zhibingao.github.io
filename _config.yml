@@ -72,6 +72,12 @@ author:
       url: "https://orcid.org/0000-0002-6843-381X "
 
 
+######NEW BY OWN
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache # 这个插件对 Minimal Mistakes 很重要
+
 footer:
   links:
  
