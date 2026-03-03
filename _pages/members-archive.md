@@ -17,7 +17,6 @@ author_profile: true
 - **Turab Lookman**  
   [Google Scholar](https://scholar.google.com/citations?user=9SNxXpUAAAAJ&hl=en&oi=ao)
 
----
 
 ## 已毕业学生及去向
 
