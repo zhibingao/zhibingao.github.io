@@ -5,11 +5,6 @@ permalink: /Links/
 author_profile: true
 ---
 
-根据西安交通大学高志斌教授主页的 **Links** 栏目内容，为您整理的 Markdown 代码如下。该页面主要包含了材料科学研究中常用的数据库、软件工具、学术组织及其他资源：
-
-```markdown
-# Links | 常用链接
-
 ## 1. Materials Databases (材料数据库)
 用于材料筛选、属性查询及机器学习数据获取：
 
@@ -48,7 +43,7 @@ author_profile: true
 *   **[Seek-path](https://www.materialscloud.org/work/tools/seekpath)**：能带结构高对称点路径生成工具。
 *   **[Crystalizer](http://crystalizer.com/)**：晶体结构处理工具。
 *   **[Bilbao Crystallographic Server](https://www.cryst.ehu.es/)**：晶格对称性与群论分析资源。
-```
+
 ## 6. Xi'an Jiaotong University Resources (西安交通大学资源)
 ### 门户与公共服务
 *   **[西安交通大学官网](http://www.xjtu.edu.cn/)**
