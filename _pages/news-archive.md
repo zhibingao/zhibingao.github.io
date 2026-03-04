@@ -1,11 +1,9 @@
 ---
-title: "NEWS"
+title: "News & Highlights | 课题组动态"
 layout: single
 permalink: /News/
 author_profile: true
 ---
-
-# News & Highlights | 课题组动态
 
 - **[2025] 荣誉入选**：恭喜 **高志斌** 老师成功入选“2025年度科学影响力排行榜”（全球前2%顶尖科学家榜单）。
     - [相关报道：祝贺 JMI 47位编委与38位青年编委入选榜单](https://mp.weixin.qq.com/s/MvNHbDg996MySoN_8zL6mw)
