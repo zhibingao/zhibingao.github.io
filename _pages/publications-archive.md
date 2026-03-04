@@ -4,7 +4,6 @@ layout: single
 permalink: /Publications/
 author_profile: true
 ---
-
 ## 2026
 
 1. T. Lookman, Y.J. Liu, Z.B. Gao, "Materials Informatics: Emergence to Autonomous Discovery in the Age of AI," *Advanced Materials*, (2026). [PDF](/assets/pdfs/zhibin85.pdf)
