@@ -1,11 +1,9 @@
 ---
-title: "RESOURCES"
+title: "科学研究与实验室资源"
 layout: single
 permalink: /Resources/
 author_profile: true
 ---
-
-# 科学研究与实验室资源
 
 ## 1. 已结题项目列表 (Completed Projects)
 
