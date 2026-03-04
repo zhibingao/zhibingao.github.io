@@ -1,11 +1,9 @@
 ---
-title: "TEACHING"
+title: "教学与人才培养"
 layout: single
 permalink: /Teaching/
 author_profile: true
 ---
-
-# 教学与人才培养
 
 ## 1. 课程教学 (Teaching)
 
